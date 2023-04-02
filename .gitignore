@@ -1,0 +1,10 @@
+src/gfx/*.c
+src/gfx/*.h
+src/gfx/*.8xv
+.DS_Store
+convimg.out
+.idea
+.vscode
+bin/Pong.bin
+bin/Pong.map
+obj
