@@ -3,9 +3,6 @@
 #include <stdbool.h>
 #include <sys/util.h>
 
-int goalTop = 90;
-int goalBottom = 150;
-
 typedef struct
 {
     int x;
@@ -29,6 +26,8 @@ typedef struct
 } ball_t;
 
 kb_key_t key;
+int goalTop = 90;
+int goalBottom = 150;
 
 // Init
 void initPaddles(paddle_t *paddle1, paddle_t *paddle2);
